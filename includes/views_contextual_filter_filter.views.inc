@@ -77,7 +77,6 @@ function views_contextual_filter_filter_views_data() {
  * Change the views_handler_filter_BLAH into contextual_filter_filter_BLAH.
  */
 function views_contextual_filter_filter_views_data_alter(&$data) {
-  dvm(__FUNCTION__);
   $filters = array(
     'views_handler_filter' => 'contextual_filter_filter',
     'views_handler_filter_boolean_operator' => 'contextual_filter_filter_boolean_operator',
